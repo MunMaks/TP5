@@ -5,23 +5,10 @@
 #include <MLV/MLV_all.h>
 
 void Ellipse(int largeur, int hauteur){
-/*
- *     int       x,         Coordonnée en X du centre de l'ellipse
- *     int       y,         Coordonnée en Y du centre de l'ellipse
- *     int       radius_x,  Rayon en X de l'ellipse
- *     int       radius_y,  Rayon en Y de l'ellipse
- *     MLV_Color color      Couleur du tracé
-*/
     MLV_draw_ellipse(largeur/2, hauteur/2, largeur/2, hauteur/2, MLV_COLOR_BLUE);
 }
 
 void Cercle(int largeur, int hauteur){
-/*
- *    int         x,          Coordonnée en X du centre du cercle
- *    int         y,          Coordonnée en Y du centre du cercle
- *    int         radius,     Rayon du cercle
- *    MLV_Color   color       Couleur du tracé
- */
     MLV_draw_circle(largeur/2, hauteur/2, largeur/2, MLV_COLOR_GREEN);
 }
 
